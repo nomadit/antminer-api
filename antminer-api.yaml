@@ -1,0 +1,28 @@
+################### Minetrix Configuration #########################
+
+dev:
+  db:
+    # Defines to connect in db
+    user: antminer
+    password: "antminer"
+    db: antminer
+    host: "localhost"
+  auth:
+    # Defines to authenticate for user
+    url: "localhost"
+test:
+  db:
+    user: antminer
+    password: "antminer"
+    db: minetrix
+    host: "localhost"
+  auth:
+    url: "localhost"
+prod:
+  db:
+    user: antminer
+    password: "antminer"
+    db: antminer
+    host: "localhost"
+  auth:
+    url: "localhost"
